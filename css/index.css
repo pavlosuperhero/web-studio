@@ -234,5 +234,5 @@ nav ul a{
 #nav_block p:last-of-type
 {
 	word-spacing: 3px;
-	font-family: 'Montserrat Light', arial;
+	font-family: Montserrat, sans-serif;
 }
