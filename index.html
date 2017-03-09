@@ -1,82 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<link rel="stylesheet" type="text/css" href="../css/index.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<title>Web_studio</title>
-	<script  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	 integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	 crossorigin="anonymous"></script>
-</head>
-<body>
-<header>
-	<div class="navigatio">
-		<img src="css/img/H.png" class="logo">
-		<nav class="menu">
-		    <ul>
-		        <li class="nav-item"><a href="#">Home</a></li>
-		        <li class="nav-item"><a href="#">About</a></li>
-		        <li class="nav-item"><a href="#">Skills</a></li>
-		        <li class="nav-item"><a href="#">Service</a></li>
-		        <li class="nav-item"><a href="#">Works</a></li>
-		        <li class="nav-item"><a href="#">Testimonials</a></li>
-		        <li class="nav-item"><a href="#">Blog</a></li>
-		        <li class="nav-item"><a href="#">Team</a></li>
-		        <li class="nav-item"><a href="#">Contact</a></li>
-		    </ul>
-		   <!-- <form class="search-form">
-		    	<button>Search</button>
-		    	<input type="text" name="text"/>
-		    </form> -->
-		    
-		    <a class="burger" href="#">&#9776;</a>
-		</nav>
-	</div>
-	<div class="first_block">
-		<div class="content">
-	    <p>the ham is <span>WordPress</span> theme</p><br>
-	    <h1>We are creative</h1><br>
-	    <p id="second_p">just buy and enjoy these awsesome features</p>
-	    <button id="first_block_btn">Explore now</button>
-	    <button id="first_block_btn">Purchase now</button>
-	    </div>
-	</div>
-</header>
-<div class="midlle_blocks">
-	<div class="mdblock" id="first_midblock">
-		<img src="css/img/hand.png"></img>
-		<p>diferent theme option</p>
-	</div>
-	<div class="mdblock" id="second_midblock">
-		<img src="css/img/diamond.png"></img>
-		<p><br>fully customizable</p>
-	</div>
-	<div class="mdblock" id="third_midblock">
-		<img src="css/img/lamp.png"></img>
-		<p>unlimited suport</p>
-	</div>
-	<div class="mdblock" id="forth_midblock">
-		<img src="css/img/devices.png"></img>
-		<p>responsive all device</p>
-	</div>
-</div>
-    <div class="creating_amazing">
-		<p class="heading">creating amazing features</p>
-		<img src="css/img/shapes.png"></img>
-		<div id="in_the_middle_blocks">
-			<div id="nav_block"><p>Retina ready</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Creative blog style</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Icon fonts</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Paralax effects</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Amazing interface</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>SEO optimizacion</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Creative solution</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Mega menu</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-			<div id="nav_block"><p>Custom backgrounds</p><p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p></div>
-		</div>
-	</div>
-	<script type="text/javascript" src="js/index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="shortcut icon" href="/images/favicon.png">
+        <title>Web_studio</title>
+    </head>
+    <body>
+        <header>
+            <div class="navigatio">
+                <div class="main_menu">
+                    <img class="logo" src="css/img/H.png">
+                    <div>
+                        <div href="#" class="hamburger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <nav class="menu">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Works</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="first_block">
+            <div class="content">
+                <p>
+                    the ham is <span>WordPress</span>
+                    theme
+                </p>
+                <br>
+                <h1>We are creative</h1>
+                <br>
+                <p id="second_p">just buy and enjoy these awsesome features</p>
+                <button id="first_block_btn">Explore now</button>
+                <button id="first_block_btn">Purchase now</button>
+            </div>
+        </div>
+        <div class="midlle_blocks">
+            <div class="mdblock" id="first_midblock">
+                <img src="css/img/hand.png"></img>
+                <p>diferent theme option</p>
+            </div>
+            <div class="mdblock" id="second_midblock">
+                <img src="css/img/diamond.png"></img>
+                <p>
+                    <br>fully customizable
+                </p>
+            </div>
+            <div class="mdblock" id="third_midblock">
+                <img src="css/img/lamp.png"></img>
+                <p>unlimited suport</p>
+            </div>
+            <div class="mdblock" id="forth_midblock">
+                <img src="css/img/devices.png"></img>
+                <p>responsive all device</p>
+            </div>
+        </div>
+        <div class="we_do_heading">
+            	<p>creating amazing features</p>
+           		<img src="css/img/shapes.png"></img>
+        </div>
+        <div class="we_do">
+        	<div id="we_do_conteiner_of_conteiners">
+                <div id="content_conteiner">
+                	<p class="glyphicon glyphicon-leaf" id="advertisement" aria-hidden="true">Retina ready</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                	<p class="glyphicon glyphicon-edit" id="advertisement" aria-hidden="true">Creative blog style</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                    <p class="glyphicon glyphicon-search" id="advertisement" aria-hidden="true">Icon fonts</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                    <p class="glyphicon glyphicon-hourglass" id="advertisement" aria-hidden="true">Paralax effects</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                    <p class="glyphicon glyphicon-phone" id="advertisement" aria-hidden="true">Amazing interface</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                     <p class="glyphicon glyphicon-wrench" id="advertisement" aria-hidden="true">SEO optimizacion</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                    <p class="glyphicon glyphicon-thumbs-up" id="advertisement" aria-hidden="true">Creative solution</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                    <p class="glyphicon glyphicon-send" id="advertisement" aria-hidden="true">Mega menu</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                <div id="content_conteiner">
+                    <p class="glyphicon glyphicon-blackboard" id="advertisement" aria-hidden="true">Custom backgrounds</p>
+                    <p>All our modulesare buid with the possibility to these choose between diferent design and you change.</p>
+                </div>
+                </div>
+            </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
 </html>
