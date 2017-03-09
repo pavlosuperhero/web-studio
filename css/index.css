@@ -99,6 +99,7 @@ html {
         position: fixed;
         font-family: Montserrat, sans-serif;
         text-decoration: none;
+        z-index: 1;
     }
 
     .main_menu {
