@@ -187,7 +187,7 @@ html {
     padding-top: 31px;
 }
 
-#first_block_btn {
+.first_block_btn {
     height: 60px;
     width: 165px;
     border-radius: 3px;
@@ -199,11 +199,11 @@ html {
     cursor: pointer;
 }
 
-#first_block_btn:hover {
+.first_block_btn:hover {
     background-color: #1c2a33;
 }
 
-#first_block_btn:active {
+.first_block_btn:active {
     transform: translateY(-4px);
     box-shadow: 0 2px 0 #006599;
 }
@@ -297,14 +297,14 @@ height: 583px;
 	justify-content:center;
 	align-items:center;
 }
-.we_do #content_conteiner{
+.we_do .content_conteiner{
 	font-family: Montserrat, sans-serif;
 	width: 326px;
 	height: 110px;
 	color: #717171;
 	
 }
-#advertisement{
+.advertisement{
 	padding-left: 5px;
 	padding-bottom: 10px;
 	z-index: 0;
@@ -356,7 +356,7 @@ height: 583px;
     margin-top: 10px;
     width: 100%;
 }
-.conteiner_hbs #skills{
+.conteiner_hbs .skills{
     padding-top: 40px;
     font-family: Montserrat, sans-serif;
     color: #fff;
