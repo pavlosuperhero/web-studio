@@ -1,16 +1,16 @@
-$('.hamburger').on('click', function(){
-  //  if($('.menu').hasClass('open')){
+$('.hamburger').on('click', function() {
+    //  if($('.menu').hasClass('open')){
     //    $('.menu').removeClass('open');
     //}   else{
-      //  $('.menu').addClass('open');
+    //  $('.menu').addClass('open');
     //}
-  $('.menu').toggleClass('open')
+    $('.menu').toggleClass('open')
 });
-$('#we_do_conteiner_of_conteiners #content_conteiner').mouseover(function(){
-     $('#advertisement',this).css('color', '#18cfab');
+$('#we_do_conteiner_of_conteiners #content_conteiner').mouseover(function() {
+    $('#advertisement', this).css('color', '#18cfab');
 });
-$('#we_do_conteiner_of_conteiners #content_conteiner').mouseleave(function(){
-     $('#advertisement',this).css('color', '#717171');
+$('#we_do_conteiner_of_conteiners #content_conteiner').mouseleave(function() {
+    $('#advertisement', this).css('color', '#717171');
 });
 $(function() {
     $('.main_menu').on('click', function(event) {
@@ -23,13 +23,13 @@ $(function() {
         }
     });
 });
-$('#our_history').on('click', function(){
-     $(this).css('box-shadow', '0 2px #717171');
+$('#our_history').on('click', function() {
+    $(this).css('box-shadow', '0 2px #717171');
 });
-$('#our_biography').on('click', function(){
-     $(this).css('box-shadow', '0 2px #717171');
+$('#our_biography').on('click', function() {
+    $(this).css('box-shadow', '0 2px #717171');
 });
-$('#our_skills').on('click', function(){
-         $(this).css('box-shadow', '0 2px #717171');
-         
+$('#our_skills').on('click', function() {
+    $(this).css('box-shadow', '0 2px #717171');
+
 });
