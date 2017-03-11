@@ -23,3 +23,13 @@ $(function() {
         }
     });
 });
+$('#our_history').on('click', function(){
+     $(this).css('box-shadow', '0 2px #717171');
+});
+$('#our_biography').on('click', function(){
+     $(this).css('box-shadow', '0 2px #717171');
+});
+$('#our_skills').on('click', function(){
+         $(this).css('box-shadow', '0 2px #717171');
+         
+});
